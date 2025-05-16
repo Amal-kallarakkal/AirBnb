@@ -24,28 +24,28 @@ export const GuestDropdown = () => {
                         <div className="text-md text-darkText font-semibold mb-1">Adults</div>
                         <div className="text-mediumText text-sm mb-4">Age 13+</div>
                     </div>
-                    <Counter/>
+                    <Counter value={1} onChange={()=>{}}/>
                 </div>
                 <div className="flex justify-between">
                     <div>
                         <div className="text-md text-darkText font-semibold mb-1">Children</div>
                         <div className="text-mediumText text-sm mb-4">Ages 2-12</div>
                     </div>
-                    <Counter/>
+                    <Counter value={1} onChange={()=>{}}/>
                 </div>
                 <div className="flex justify-between">
                     <div>
                         <div className="text-md text-darkText font-semibold mb-1">Infants</div>
                         <div className="text-mediumText text-sm mb-4">Under 2</div>
                     </div>
-                    <Counter/>
+                    <Counter value={1} onChange={()=>{}}/>
                 </div>
                 <div className="flex justify-between">
                     <div>
                         <div className="text-md text-darkText font-semibold mb-1">Pets</div>
                         <div className="text-darkText text-sm mb-4 underline">Bringing a service animal?</div>
                     </div>
-                    <Counter/>
+                    <Counter value={1} onChange={()=>{}}/>
                 </div>
                 <div className="my-4 font-thin text-xs text-mediumText">
                     This place has a maximum of 8 guests, not including infants. 
