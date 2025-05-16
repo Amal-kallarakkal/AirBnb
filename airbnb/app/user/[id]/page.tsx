@@ -16,16 +16,14 @@ import {
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { PropertyCard } from "@/components/Properties/PropertyCard";
-import { Properties } from "@/components/Properties/Properties";
-import { PropertyInfoProps } from "@/components/Properties/PropertyInfo";
 
-export default function UserDetailPage({propertyInfo} : {propertyInfo ?: PropertyInfoProps}) {
+export default function UserDetailPage() {
     return (
         <div className="w-full overflow-hidden flex flex-col justify-center items-center lg:items-start lg:flex-row px-20">
             <div className="flex flex-col mt-2 sm:mt-8 justify-center p-12 min-w-[480px] max-w-[500px] lg:sticky lg:top-0 lg:h-screen">
-                <UserCard className= "w-[330px] ml-8 sm:ml-0 h-60 sm:h-full sm:w-full" landlord={(propertyInfo?.property?.landlord)??"Harshit"} /> 
+                <UserCard className= "w-[330px] ml-8 sm:ml-0 h-60 sm:h-full sm:w-full" landlord="Harshit" /> 
                 <div className="w-full  sm:border border-gray-300 rounded-xl ml-6 sm:ml-0 p-6 my-12 ">
-                    <div className="text-2xl text-darkText mb-4">{(propertyInfo?.property?.landlord)??<>Harshit</>}'s confirmed information</div>
+                    <div className="text-2xl text-darkText mb-4"><>Harshit</>'s confirmed information</div>
                     <div className="text-xl text-darkText my-4 sm:mx-4 flex items-center">
                         <IoMdCheckmark className="mx-4"/>Identity
                     </div>

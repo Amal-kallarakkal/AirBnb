@@ -23,7 +23,7 @@ export const UserCard = ({ className, landlord }: UserCardProps) => {
                     alt="Small Image 1"
                 />
                 <div className="text-xl sm:text-2xl text-darkText font-bold">
-                    {landlord?.name}
+                    {landlord}
                 </div>
                 <div className="text-md font-bold text-lightText flex items-center">
                     <RiMedalFill className="mx-1"/>Superhost

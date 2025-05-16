@@ -10,7 +10,7 @@ export const HostDetails = ({landlord }: {landlord:any}) => {
                 
                 <div className="flex flex-col justify-center min-w-[325px] max-w-[400px] ">
                     <div className="text-2xl font-semibold text-darkText">Meet your host</div>
-                    <UserCard className="my-4 w-[345px] sm:w-[400px] h-[280px]" landlord = {landlord}/>
+                    <UserCard className="my-4 w-[345px] sm:w-[400px] h-[280px]" landlord = {landlord?.name}/>
                     <div className="my-4">
                     </div>
                     <div className="py-2">Zostel is India's first and largest chain of budget hostels for the sociable explorer. Our properties....</div>
