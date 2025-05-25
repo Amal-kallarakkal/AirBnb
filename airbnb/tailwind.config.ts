@@ -68,5 +68,6 @@ export default {
     require('tailwind-scrollbar'),
 	require("tailwindcss-animate")
   ],
+  important: true
 } satisfies Config;
 
