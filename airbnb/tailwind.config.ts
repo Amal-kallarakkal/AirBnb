@@ -7,6 +7,7 @@ export default {
     "./Components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  
   theme: {
   	extend: {
   		colors: {
@@ -68,3 +69,4 @@ export default {
 	require("tailwindcss-animate")
   ],
 } satisfies Config;
+
